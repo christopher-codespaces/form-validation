@@ -1,0 +1,40 @@
+.div {
+    background-color: tomato ;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+.form {
+    flex-direction: column;
+    display: flex;
+}
+
+
+.input {
+    width: 600px;
+    height:30px;
+    border-radius:80px;
+    border-color: grey;
+    border-width:0px
+}
+
+.textarea {
+    width: 500px;
+    height: 150px;
+
+}
+
+
+.label {
+    color:white;
+    font-size: 30
+}
+
+.h3 {
+    color:white;
+    font-size: 700;
+    font: weight 800px;
+}
+

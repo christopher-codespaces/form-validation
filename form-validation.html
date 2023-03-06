@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Montserrat:ital,wght@0,100;0,200;0,400;1,100;1,200;1,300;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Form Validation Exercise </title>
+</head>
+<style>
+.black-text::placeholder {
+    color: black;
+}
+</style>
+<body>
+    <div class="div">
+    <h3 class="h3">Form Validation Exercise:</h3>
+
+<form class="form"   action="https://formsubmit.co/1455dedf674bc661b98285ab32b9bc92" method="POST">
+
+    <label class="label" for="User id">User id:</label>
+    <input class="input black-text"  type="text" id="User id" name="User id"  maxlength="12" minlength="7" required>
+
+    <label  class="label" for="name">Password:</label>
+    <input  class="input black-text" type="text" id="Password" name="Password" minlength="7" maxlength="12" required>
+
+    <label for="name" class="label">Name:</label>
+    <input class="input black-text"  type="text" id="name" name="name" required>
+
+    <label class="label" for="name">Address:</label>
+    <input  class="input black-text" type="address" id="address" name="address" required>
+
+    <label  class="label" for="name">Zip Code:</label>
+    <input  class="input black-text" type="zipcode" id="zipcode" name="zipcode" required>
+
+    <label  class="label" for="name">Email Address:</label>
+    <input  class="input black-text" type="email" id="email" name="email" required>
+
+    
+    <label  class="label" for="name">Country:</label>
+    <select class="input black-text" name="Country">
+        <option value="South Africa">South Africa</option>
+        <option value="Zimbabwe">Zimbabwe</option>
+        <option value="Zambia">Zambia</option>
+        <option value="Angola">Angola</option>
+        <option value="USA">USA</option>
+        <option value="Uganda">Uganda</option>
+    </select>
+    <label  class="label" for="name">Genders:</label>
+    <label>
+    <input  type="radio" name="gender" value="male">
+        Male
+    </label>
+
+    <label>
+    <input type="radio" name="gender" value="female">
+        Female
+    </label>
+
+    <label class="label" for="name">Language:</label>
+    <label>
+    <input type="radio" name="gender" value="male">
+        English
+    </label>
+
+    <label>
+    <input type="radio" name="gender" value="female">
+        Non-English 
+    </label>
+
+    <label for="message" class="label">About:</label>
+    <textarea class="textarea black-text" id="message" name="message" required></textarea>
+    <button class="button" type="submit" >Submit</button>
+</form>
+</div>
+</body>
+</html>
